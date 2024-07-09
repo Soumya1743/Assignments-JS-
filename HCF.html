@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HCF</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let HCF;
+    a = prompt("Enter First Number : ");
+    b = prompt("Enter Second Number : ");
+    for(let i=1; i<=a && i<=b; i++){
+        if(a%i==0 && b%i==0){
+            HCF = i;
+        }
+    }
+    console.log(`HCF of ${a} and ${b} is ${HCF}`);
+</script>
+</html>
